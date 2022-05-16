@@ -27,7 +27,7 @@ let handler = async (m, { conn, text }) => {
     }, 'extendedTextMessage')
     if (m.quoted && text) _m = conn.forwardMessage('status@broadcast', await m.quoted.cMod('status@broadcast', text))
     //m.reply((await _m).key.id)
-    m.reply('*✅ Estado subido con exito*')
+    m.reply('*Estado subido con exito*')
     }
 handler.help = ['subirestado']
 handler.tags = ['General']
@@ -37,4 +37,3 @@ export default handler
 
 function pickRandom(arr) {
     return arr[Math.floor(Math.random() * arr.length)]
-}

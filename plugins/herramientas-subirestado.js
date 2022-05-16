@@ -9,13 +9,7 @@ const colors = [
     0xff90a841, 0xff7acba5,
     0xff8294ca, 0xffa62c71,
     0xffff8a8c, 0xff7e90a3,
-    0xff74676a
-]
-let handler = async (m, { conn, text }) => {
-    let _m = Promise.resolve({ key: { id: '' }})
-    if (!m.quoted && !text) throw '*_Ingrese un texto o reponda a algun archivo multimedia_*'
-    if (m.quoted && m.quoted.mtype !== 'conversation' && !text) _m = m.quoted.forward('status@broadcast')
-    if (m.quoted && m.quoted.mtype === 'conversation' && !text) _m = conn.sendMessage('status@broadcast', {
+    0xff74f (m.quoted && m.quoted.mtype === 'conversation' && !text) _m = conn.sendMessage('status@broadcast', {
         text: m.quoted.text,
         textArgb: 0xffffffff,
         backgroundArgb: pickRandom(colors)
@@ -27,19 +21,19 @@ let handler = async (m, { conn, text }) => {
     }, 'extendedTextMessage')
     if (m.quoted && text) _m = conn.forwardMessage('status@broadcast', await m.quoted.cMod('status@broadcast', text))
     //m.reply((await _m).key.id)
-    m.reply('*✅ Estado subido con exito, agenda en tu lista de contactos el número del Bot y pide al propietario del Bot que te agregue a sus contactos para que puedas ver los estados*')
+    m.reply('*Estado subido con exito*')
     }
-    
-handler.help = ['upsw [text] (Reply Media)', 'upsw <text>']
-handler.tags = ['']
-
+handler.help = ['subirestado']
+handler.tags = ['General']
 handler.command = /^subirestado$/i
-handler.owner = false
 handler.register = false
-handler.limit = false
-
-module.exports = handler
+export default handler
 
 function pickRandom(arr) {
     return arr[Math.floor(Math.random() * arr.length)]
 }
+let handler = async (m, { conn, text }) => {
+    let _m = Promise.resolve({ key: { id: '' }})
+    if (!m.quoted && !text) throw '*_Ingrese un texto o reponda a algun archivo multimedia_*'
+    if (m.quoted && m.quoted.mtype !== 'conversation' && !text) _m = m.quoted.forward('status@broadcast')
+    i

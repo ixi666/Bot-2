@@ -64,13 +64,13 @@ text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length
 
 let str = `
 *𝙷𝙾𝙻𝙰 ✨${name}✨, 𝙰𝚀𝚄𝙸 𝙴𝚂𝚃𝙰 𝙴𝙻 𝙼𝙴𝙽𝚄 𝙲𝙾𝙼𝙿𝙻𝙴𝚃𝙾 𝙳𝙴 𝚃𝙷𝙴  ixxi - 𝙱𝙾𝚃*
-╭────────────────ꕥ
-*📅 𝙵𝙴𝙲𝙷𝙰: ${week}, ${date}*
+╭──────────ꕥ
+* 𝙵𝙴𝙲𝙷𝙰: ${week}, ${date}*
 
-*📈 𝚃𝙸𝙴𝙼𝙿𝙾 𝙰𝙲𝚃𝙸𝚅𝙾: ${uptime}*
+* 𝚃𝙸𝙴𝙼𝙿𝙾 𝙰𝙲𝚃𝙸𝚅𝙾: ${uptime}*
 
-*📊 𝚄𝚂𝚄𝙰𝚁𝙸𝙾𝚂: ${rtotalreg}*
-╰────────────────✾
+* 𝚄𝚂𝚄𝙰𝚁𝙸𝙾𝚂: ${rtotalreg}*
+╰─────────✾
 ╭─────────ꕥ
 ├─𝕁𝕌𝔼𝔾𝕆𝕊
 ├─Ejemplo:
@@ -92,32 +92,32 @@ let str = `
 ┃ *para poder solucionarlo*
 ╰─────✾
 ╭──────ꕥ
-├─ ❏ bug *tal comando con fallas*
-├─ ❏ report *tal comando con fallas*
-├─ ❏ reporte *tal comando con fallas*
+├─ ❏ .bug *tal comando con fallas*
+├─ ❏ .report *tal comando con fallas*
+├─ ❏ .reporte *tal comando con fallas*
 ╰───────✾
 ╭────────ꕥ
 ┃ *NÚMERO DEl PROPIETARIO*
-├─ ❏ owner
-├─ ❏ contacto
+├─ ❏ .owner
+├─ ❏ .contacto
 ╰──────────✾
 ╭─────────ꕥ
 ┃ *UNE UN BOT A TU GRUPO*
 ╰───────✾
 ╭──────────ꕥ
-├─ ❏ join *enlace del grupo*
-├─ ❏ unete *enlace del grupo* 
-├─ ❏ bots *ver bots*
+├─ ❏ .join *enlace del grupo*
+├─ ❏ .unete *enlace del grupo* 
+├─ ❏ .bots *ver bots*
 ╰──────────✾
 ╭───────ꕥ
 ┃ *TOPS*
 ╰────────✾
 ╭────────ꕥ
-├─ ❏ top10gays | topgay
-├─ ❏ toplind@s | toplind@
-├─ ❏ topput@s | toppt
-├─ ❏ toppajer@s | toppajeros
-├─ ❏ topotakus | toptakus
+├─ ❏ .top10gays 
+├─ ❏ .toplind@s 
+├─ ❏ .topput@s
+├─ ❏ .toppajer@s 
+├─ ❏ .topotakus 
 ╰─────────✾
 ╭───────────ꕥ
 ┃ 𝔸ℂ𝕋𝕀𝕍𝔸ℝ 𝕆 𝔻𝔼𝕊𝔸ℂ𝕋𝕀𝕍𝔸ℝ
@@ -142,40 +142,40 @@ let str = `
 ┃ *DESCARGAS*
 ╰───────────✾
 ╭──────────ꕥ
-├─ ❏ imagen | image | gimage *texto*
-├─ ❏ ytsearch *texto*
-├─ ❏ dlaudio *link yt*
-├─ ❏ dlvid *link yt*
-├─ ❏ ytmp3 *link yt*
-├─ ❏ ytmp4 *link yt*
-├─ ❏ play *titulo del audio*
-├─ ❏ play2 *titulo del vide*
-├─ ❏ play3 *titulo del audio/video*
-├─ ❏ play6 *artista y titulo*
-├─ ❏ letra *nombredelacanción*
-├─ ❏ google *texto*
-├─ ❏ googlef *texto*
+├─ ❏ .imagen | image | gimage *texto*
+├─ ❏ .ytsearch *texto*
+├─ ❏ .dlaudio *link yt*
+├─ ❏ .dlvid *link yt*
+├─ ❏ .ytmp3 *link yt*
+├─ ❏ .ytmp4 *link yt*
+├─ ❏ .play *titulo del audio*
+├─ ❏ .play2 *titulo del vide*
+├─ ❏ .play3 *titulo del audio/video*
+├─ ❏ .play6 *artista y titulo*
+├─ ❏ .letra *nombredelacanción*
+├─ ❏ .google *texto*
+├─ ❏ .googlef *texto*
 ╰───────────✾
 ╭─────────ꕥ
 ┃ 𝔾ℝ𝕌ℙ𝕆𝕊 
 ╰─────────✾
 ╭────────ꕥ
-├─ ❏ admins *texto* 
-├─ ❏ añadir *numero*
-├─ ❏ sacar @tag 
-├─ ❏ promote
-├─ ❏ demote
-├─ ❏ grupo *abierto / cerrado*
-├─ ❏ enable delete
-├─ ❏ disable delete
-├─ ❏ link
-├─ ❏ hidetag *texto*
-├─ ❏ infogrupo
-├─ ❏ invocar *texto*
-├─ ❏ del 
-├─ ❏ fantasmas
-├─ ❏ banchat
-├─ ❏ unbanchat
+├─ ❏ .admins *texto* 
+├─ ❏ .añadir *numero*
+├─ ❏ .sacar @tag 
+├─ ❏ .promote
+├─ ❏ .demote
+├─ ❏ .grupo *abierto / cerrado*
+├─ ❏ .enable delete
+├─ ❏ .disable delete
+├─ ❏ .link
+├─ ❏ .hidetag *texto*
+├─ ❏ .infogrupo
+├─ ❏ .invocar *texto*
+├─ ❏ .del 
+├─ ❏ .fantasmas
+├─ ❏ .banchat
+├─ ❏ .unbanchat
 ╰─────────✾
 ╭───────ꕥ
 ┃ *CREADORES*
@@ -194,15 +194,15 @@ let str = `
 ┃ *¡Una gran variedad de estilos de textos!*
 ╰──────────✾
 ╭──────────ꕥ
-├─ ❏ style *texto*
-├─ ❏ estilo *text*
+├─ ❏ .style *texto*
+├─ ❏ .estilo *text*
 ╰────────✾
 ╭────────ꕥ
 ┃ *SUBIR ESTADOS A IXXI BOT*
 ┃ *¡Sube estados!*
 ╰─────────✾
 ╭─────────ꕥ
-├─ ❏ subirestado 
+├─ ❏ .subirestado 
 ╰──────────✾
 ╭──────────ꕥ
 ┃ *COMANDOS +18*
@@ -210,7 +210,7 @@ let str = `
 ┃ *NO nos hacemos responsables*
 ╰─────────✾
 ╭────────ꕥ
-├─ ❏ labiblia
+├─ ❏ .labiblia
 ╰──────────✾
 ╭───────ꕥ
 ┃ *EFECTOS PARA AUDIOS*
@@ -234,20 +234,13 @@ let str = `
 ┃ *CHAT ANONIMO*
 ╰────────✾
 ╭───────ꕥ
-├─ ❏ start
-├─ ❏ next
-├─ ❏ leave
+├─ ❏ .start
+├─ ❏ .next
+├─ ❏ .leave
 ╰─────────✾
-╭───────ꕥ
-┃ *CONVIERTETE EN BOT*
-╰────────✾
-╭────────ꕥ
-├─ ❏ stop
-├─ ❏ serbot
-├─ ❏ getcode
-╰─────────✾
+
 ╭───────────ꕥ
-┃𝔸𝕌𝔻𝕀𝕆𝕊
+┃ 𝔸𝕌𝔻𝕀𝕆𝕊
 ╰───────────✾
 ╭──────────ꕥ
 ├─ Quien es tu sempai botsito 7w7
@@ -311,9 +304,9 @@ let str = `
 👑 _${usedPrefix}añadirxp *<@tag> <cantidad>*
 `.trim()
 conn.sendHydrated(m.chat, str, wm, pp, 'https://github.com/ixi666/Bot-2', '𝙶𝙸𝚃𝙷𝚄𝙱', null, null, [
-['📮 𝙳𝙾𝙽𝙰𝚁 📮', '/donasi'],
-['🌹 𝙾𝚆𝙽𝙴𝚁 🌹', '/owner'],
-['🐾 𝙸𝙽𝙵𝙾𝙱𝙾𝚃 🐾', '/infobot']
+[' 𝙳𝙾𝙽𝙰𝚁 ', '/donasi'],
+[' 𝙾𝚆𝙽𝙴𝚁 ', '/owner'],
+[' 𝙸𝙽𝙵𝙾𝙱𝙾𝚃 ', '/infobot']
 ], m,)
 await conn.sendFile(m.chat, vn, 'menu.mp3', null, m, true, {
 type: 'audioMessage', 

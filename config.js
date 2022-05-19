@@ -6,7 +6,7 @@ global.owner = [
   ['526565978886', '👑 ixxi - King 👑', true],
   ['855384407780'],
   ['50764557356'],
-  ['50246636573']
+  ['50578644029']
 ] // Cambia los numero que quieras
 global.mods = [] 
 global.prems = [] 

@@ -1,5 +1,5 @@
 let handler = (t) => {
-t.reply('*https://github.com/BrunoSobrino/TheMystic-Bot-MD*')
+t.reply('*https://github.com/ixxi*')
 }
 handler.command = ['sc','script']
 handler.help = ['sc']
